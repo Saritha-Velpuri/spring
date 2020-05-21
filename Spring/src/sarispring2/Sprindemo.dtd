@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans SYSTEM "http://www.springframework.org/dtd/spring-beans-2.0.dtd" PUBLIC "-//SPRING//DTD BEAN 2.0//EN">
+
+<beans>
+
+<bean class="Rectangleclass" id="rectangle"> </bean>
+
+
+<bean class="Classdrawing" id="pointA">
+
+<property value="0" name="x"/>
+
+<property value="0" name="y"/>
+
+</bean>
+
+
+<bean class="Classdrawing" id="pointB">
+
+<property value="7" name="x"/>
+
+<property value="0" name="y"/>
+
+</bean>
+
+
+<bean class="Classdrawng" id="pointC">
+
+<property value="7" name="x"/>
+
+<property value="8" name="y"/>
+
+</bean>
+
+</beans><?xml version="1.0" encoding="UTF-8"?>
