@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<beans xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">
+
+
+<bean class="spring3.HelloTune" id="helloTuneObject"/>
+
+<bean class="spring3.DataService" id="dataObject"/>
+
+
+-<bean class="spring3.Springclass3" id="airtel">
+
+<property ref="helloTuneObject" name="s"/>
+
+</bean>
+
+</beans><?xml version="1.0" encoding="UTF-8"?>
